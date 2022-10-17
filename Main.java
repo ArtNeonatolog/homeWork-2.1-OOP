@@ -7,26 +7,55 @@ public class Main {
     private static void task3() {
         System.out.println();
         System.out.println("Задание 3");
-        Car car1 = new Car ("Lada", "Granta", 1.7f, "желтый", 2015, "Россия");
+        Car car1 = new Car ();
+        car1.brand = "Lada";
+        car1.model = "Granta";
+        car1.engineVolume = 1.7f;
+        car1.color = "желтый";
+        car1.productionYear = 2015;
+        car1.productionCountry = "Россия";
         car1.informationOfTheCar();
         System.out.println();
 
-        Car car2 = new Car ("Audi", "A8 50 L TDI quattro", 3.0f, "черный", 2020, "Германия");
+        Car car2 = new Car ();
+        car2.brand = "Audi";
+        car2.model = "A8 50 L TDI quattro";
+        car2.engineVolume = 3.0f;
+        car2.color = "черный";
+        car2.productionYear = 2020;
+        car2.productionCountry = "Германия";
         car2.informationOfTheCar();
         System.out.println();
 
-        Car car3 = new Car ("BMW", "Z8", 3.0f, "черный", 2021, "Германия");
+        Car car3 = new Car ();
+        car3.brand = "BMW";
+        car3.model = "Z8";
+        car3.engineVolume = 3.0f;
+        car3.color = "черный";
+        car3.productionYear = 2021;
+        car3.productionCountry = "Германия";
         car3.informationOfTheCar();
         System.out.println();
 
-        Car car4 = new Car ("Kia", "Sportage 4-го поколения", 2.4f, "красный", 2018, "Южная Корея");
+        Car car4 = new Car ();
+        car4.brand = "Kia";
+        car4.model = "Sportage 4-го поколения";
+        car4.engineVolume = 2.4f;
+        car4.color = "красный";
+        car4.productionYear = 2018;
+        car4.productionCountry = "Южная Корея";
         car4.informationOfTheCar();
         System.out.println();
 
-        Car car5 = new Car ("Hyundai", "Avante", 1.6f, "оранжевый", 2016, "Южная Корея");
+        Car car5 = new Car ();
+        car5.brand = "Hyundai";
+        car5.model = "Avante";
+        car5.engineVolume = 1.6f;
+        car5.color = "оранжевый";
+        car5.productionYear = 2016;
+        car5.productionCountry = "Южная Корея";
         car5.informationOfTheCar();
         System.out.println();
-
     }
     private static void task2() {
         System.out.println();
